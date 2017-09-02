@@ -1,0 +1,71 @@
+{
+	border: 1px solid #999;
+}
+body{
+	width:1200px;
+	font-family: "微软雅黑";
+}
+#login_top{
+	height:677px;
+	background:#F9F9F9 ;
+	margin:-10px auto 0px 220px;
+	/* 下面这两条不设置也可以,稍有bug */
+	position:fixed; 
+	bottom:0px;
+}
+/* 设置图标居中 */
+#mi_icon{
+	padding:20px 0px 30px 425px;
+}
+/* 小米帐号登录的文字修饰 */
+#login_top p{
+	text-align: center;
+	font-size:30px;
+}
+form{
+	width:900px;
+	margin:25px auto 0px;
+}
+
+form input[type='text'],form input[type='password']{
+	border: 1px solid #CCCCCC;
+	width:240px;
+	height: 35px;
+	line-height:35px;
+	vertical-align: middle;
+}
+
+table{
+	margin:0px auto 0px;
+}
+td{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.tdx{
+	text-align: right;
+}
+
+input[type='submit']{
+	background:#F56600;
+	width:300px;
+	height:44px;
+	border-style:none;
+	font-size:20px;
+	/* 字体变粗 */
+	font-weight:bold;
+	color:white;
+	cursor: pointer;
+}
+input[type='submit']:hover{
+	background:#FF946A;
+}
+
+#mi_foot{
+	padding-top:80px;
+}
+#mi_foot p{
+	font-size:14px;
+	text-align:center;
+}
+

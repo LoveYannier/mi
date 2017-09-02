@@ -1,0 +1,82 @@
+@charset "utf-8";
+{
+	border: 1 solid #999;
+}
+body{
+	font-family:"微软雅黑";
+	background:url("../img/regist/banner.jpg") no-repeat 0px 90px;
+}
+
+/* 注册页面左上角 图标 */
+#mi_icon{
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	margin-left: 63px;
+	margin-top: 21px;
+	}
+#mi_slogan{
+	margin-left: 130px;
+	margin-top: 21px;
+}
+
+h3{
+	width:300px;
+	margin: 90px auto 40px;
+	text-align: center;
+	color:#FF8000;
+	padding-top:40px;	
+}
+form{
+	width:420px;
+	margin: 0px 0px 0px 860px;
+	background:white;
+	z-index:2;
+}
+table{
+	margin: 0px auto 0px 10px;
+}
+.tds{
+	text-align: right;
+	font-size:18px;
+}
+td{
+	padding-top:10px;	
+}
+input[type='text'],input[type='password']{
+	width:150px;
+	height:22px;
+	border: 1px solid #cccccc;
+}
+input[name='valistr']{
+	width:80px;
+}
+#yzm_img{
+	vertical-align: top;
+}
+input[type='submit']{
+	background-image: url("../img/regist/zcan01.jpg");
+	width:127px;
+	height:44px;
+	border-style:none;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	margin: 0px 70px 20px ;
+	
+}
+input[type='submit']:hover{
+	background-image: url("../img/regist/zcan02.jpg");
+}·
+span{
+	color:red;
+	font-size:14px;
+}
+
+#mi_foot{
+	font-size:14px;
+	padding-top:70px;	
+	text-align:center;
+}
+
+

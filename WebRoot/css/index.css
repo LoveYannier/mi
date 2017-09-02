@@ -1,0 +1,499 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+#XiaoMi{
+	width : 1349px ;
+	height :2000px ;
+	}
+/*顶部*/
+#xiaomi_top{
+	height:41px;
+	width:1349px;
+	background :rgb(51,51,51);
+	position:absolute;
+	}
+#daohang_top{
+	line-height:41px;
+	margin-left:65px;
+	color:rgb(66,66,66);
+	}
+#daohang_top a{
+	font-size:12px;
+	color:rgb(176,176,176);
+	text-decoration:none;
+	
+	}
+/*鼠标触碰颜色改变*/
+#daohang_top a:hover{
+	color:white;
+	}	
+/*登陆*/
+#login{
+	margin-left:400px;
+	}
+	
+/*  */
+a.login1{
+	margin-left:300px;
+}
+
+
+/*购物车图片的设置*/
+#cart_image{
+	width:20px;
+	height:15px;
+	margin:0px;
+	float:left;
+	margin-top:12px;
+	margin-left:12px;
+	background:url(../css/img/index/gouwuche.png);
+	background-size:100%；
+}
+#cart{
+	width:120px;
+	height:41px;
+	background:rgb(66,66,66);
+	float:right;
+	margin-right:85px;
+	font-size:12px;
+	color:rgb(176,176,176);
+	}
+#cart:hover{
+	background-color:white;
+	color:rgb(255,103,0);
+	cursor:pointer;
+	}
+#cart:hover #cart_image{
+	background:url(../img/index/gouwuche2.png);
+	background-size:100%;
+	}
+/*#cart_down{
+	display:none;
+	width:317px;
+	height:98px;
+	background:white;
+	border:0px solod red ;
+	margin-left: -197px;
+	-moz-box-shadow:0px 5px 10px  #888888 ;
+	box-shadow:  0px 5px 10px #888888;
+	line-height: 98px;
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+	}*/
+	
+/*导航栏*/
+#daohang{
+	width:1349;
+	height:100px;
+	background-color:white;
+	z-index:20px;
+	position:absolute;
+	top:41px;
+	}
+/*小米標志*/
+#mi_icon{
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	margin-left: 63px;
+	margin-top: 21px;
+	}
+#mi_icon : hover{
+	cursor:pointer;
+	}
+/*导航栏*/
+#daohang #mi_navigation{
+	margin-left:320px;
+	}
+/*设置字体的高度,下划线去掉,字体间的间隔,字体的颜色*/
+#daohang #mi_navigation a{
+	line-height:100px;
+	text-decoration: none;
+	margin-left: 15px;
+	color: black;
+	}
+/*设置鼠标移动变色*/
+#daohang #mi_navigation a:hover{
+	color:rgb(255,166,0);
+	}
+/*导航的搜索框 线的颜色*/
+input[type="text"]{
+	border: 1px solid rgb(224,224,224);
+	width: 245px;
+	height: 50px;
+	/*和后面搜索标志的线合一,这里设置为0*/
+	border-right: 1px rgb(224,224,224);
+	margin-left:75px;
+	/*文本框中的字体无边框 .设置字体的大小,内边框左10px*/
+	outline: none;
+	font-size: 17px;
+	padding-left:10px ;
+	}
+/*#daohang #seach_icon {
+	width: 51px;
+	height: 50px;
+	margin-left: -5px;
+	margin-bottom:-21px;
+	}*/
+#daohang span{
+	width: 50px;
+	height: 50px;
+	float:right;
+	margin-top:25px;
+	/*图片周围画线*/
+	border: 1px  solid rgb(224,224,224);
+	}
+
+#daohang  #mi_navigation #seach_icon{
+	background: url(../img/index/sousuo1.png);
+	cursor: pointer;
+	
+	}
+/*hover前后都不能多空格,否则错误*/
+#daohang #mi_navigation #seach_icon:hover{
+	background: url(../img/index/sousuo2.png);
+	cursor: pointer;transition: all 0.5s;
+	}
+
+
+/*左侧菜单栏
+	设置整个div的优先级
+*/
+#mi_line1 ul{
+	/*	1设置优先级,当父级的position属性为absolute时,无效
+		2问题标签无position属性（不包括static）；
+		3问题标签含有浮动(float)属性。
+	*/
+	position: absolute;
+	margin-top:108px;
+	z-index:2;
+	
+	}
+#mi_line1 ul li{
+	width:200px;
+	height: 37px;
+	/*和小米标志的margin-left设置成一样就可以*/
+	margin-left:63px;
+	/*字体在黑色框内的位置*/
+	padding-left: 50px;
+	padding-top:9px;
+	/*小黑點*/
+	list-style: none;
+	cursor: pointer;
+	background:rgb(153,153,153);
+	}
+/*设置字体颜色*/
+#mi_line1 ul li font{
+	font-size:15px;
+	color:white;
+	}
+/*鼠标移过去 背景颜色改变*/
+#mi_line1 ul li:hover{
+	background:#FF6700;
+}
+
+/*banner图*/
+#xiaomi_lunbo{
+	width: 1227px;
+	height: 1100px;
+	position: absolute;
+	top: 150px;
+	left: 62px;
+	z-index:1;
+	}
+/*鼠标移动到banner图的时候变成小手*/
+#xiaomi_lunbo img:hover{
+	cursor:pointer
+	}
+
+/*三张图*/
+#mi_third_images {
+	position: absolute;
+	margin-left:63px;
+	margin-top:580px;
+	cursor:pointer;
+	}
+#mi_third_images:hover{
+	cursor:pointer;
+	}
+/*第一张*/
+#mi_first_image{
+	position: absolute;
+	width:250px;
+	}
+#mi_first_image ul li{
+	padding:32px;
+	background-color:rgb(95,87,80) ;
+	float: left;
+	list-style:none;
+	text-align: center;
+	color: rgb(205,202,200);
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	} 
+#mi_second_image img{
+	position: absolute;
+	left:270px;
+	max-height:250px;
+	}
+#mi_third_image img{
+	position: absolute;
+	left:760px;
+	max-height:250px;
+	}
+/*智能硬件*/
+#zhinengyingjian{
+	width: 1227px;
+	height: 670px;
+	position: absolute;
+	top:950px;
+	margin-left:63px;
+	}
+/*文字格式位置的修饰*/
+#zhinengyingjian_top{
+	width: 1227px;
+	height: 50px;
+	}
+#zhinengyingjian_top h2{
+	font-size:20px ;
+	position: absolute;
+	top: 15px;
+	}
+#zhinengyingjian_top h3{
+	position: absolute;
+	left: 1140px;
+	top: 20px;
+	font-size:16px ;
+	}
+#zhinengyingjian_top h3:hover{
+	cursor: pointer;
+	background-color:rgb(255,0,0);
+	}	
+
+/*智能硬件内容*/
+#zhinengyingjian_content{
+	width: 1227px;
+	height: 610px;
+	position: absolute;
+	top:70px;
+	}
+#zhinengyingjian_content_left{
+	width: 234px;
+	height: 610px;
+	float: left;
+	background: url(../img/index/zhineng_left.png);
+	}
+#zhinengyingjian_content_right{
+	width: 977px;
+	height: 610px;
+	float: right;
+	}
+#zhinengyingjian_content_right ul{
+	width: 977px;
+	height: 610px;
+	}
+#zhinengyingjian_content_right ul li{
+	width: 235px;
+	height: 300px;
+	background:white;
+	float: left;
+	margin-left: 7px;
+	margin-top: 4px;
+	list-style: none;
+	}
+/*智能硬件内容八图*/
+.dapei_tupian{
+	width: 163px;
+	height: 163px;
+	margin: 0 auto;
+	margin-top: 0px;
+	}
+.danpin_tupian{
+	width: 163px;
+	height: 163px;
+	margin: 0 auto
+	;margin-top: 30px;
+	}
+.danpin_tupian:hover{
+	cursor: pointer;
+	}
+.danpin_wenzi{
+	width: 220px;
+	height: 78px;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	}
+/*文字修飾*/
+
+.wenzi_1{
+	font-size:15px;
+	}
+.wenzi_1:hover{
+	cursor: pointer;
+	}
+.wenzi_2{
+	font-size:13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: rgb(176,176,176);
+	}
+.wenzi_3{
+	font-size:15px;
+	color: rgb(255,103,9);
+	}
+	
+/*底部*/
+#dibu{
+	width: 1347px;
+	height: 438px;
+	position: absolute;
+	top: 1700px;left: -61px;background: white;}
+/*底部头部*/
+#dibu_top{
+	width: 1347px;
+	height:80px;
+	position: absolute;
+	margin-left:20px;
+	}
+#dibu_content{
+	width: 1347px;
+	height: 190px;
+	top: 80px;
+	position: absolute;
+	}
+#dibu_top ul li{
+	width: 210px;
+	height: 50px;
+	float: left;
+	list-style: none;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 16px;
+	}
+.diyi_biaoqian{
+	margin-left: 140px;
+	}
+.biaoqianbiankuang{
+	border-right: 1px solid rgb(200,200,200);
+	}
+#dibu_top ul li:hover{
+	color:rgb(255,103,79);
+	cursor: pointer;
+	}
+
+/*底部内容*/
+#dibufengexian{
+	width:1227px ;
+	height: 3px;
+	position: absolute;
+	}
+#dibufengexian img{
+	margin-left: 60px;
+	}
+#dibu_neirong{
+	width: 1200px;
+	height: 150px;
+	position: absolute;
+	top: 20px;
+	left: 65px;
+	}
+#dibu_neirong ul li{
+	width: 100px;
+	height: 150px;
+	background:white;
+	float: left;
+	margin-left:65px;
+	list-style: none;
+	text-align: center;
+	}
+.dibu_toubu_ziti{
+	margin-top: 20px;
+	}
+.dibu_sanhang_ziti{
+	font-size: 14px;
+	margin-top: 6px;
+	color: rgb(176,176,176);
+	}
+.dibu_sanhang_ziti:hover{
+	color: rgb(255,103,0);
+	cursor: pointer;
+	}
+#shufengexian{
+	width: 30px
+	;height:110px;
+	background: url(../img/index/shufengexian.png);
+	position: absolute;
+	left: 1000px;
+	top: 20px;
+	}
+#dianhua{
+	width: 150px;
+	height: 132px;
+	position: absolute;
+	left: 1040px;
+	top: 10px;
+	text-align: center;
+	}
+.dianhua_{
+	color: rgb(255,103,0);
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	}
+.dier_ziti{
+	font-size: 14px;
+	margin-top: 10px;
+	color: rgb(74,74,74);
+	}
+/*小米底部*/
+#dibu_dibu_dibu{
+	width: 1347px;
+	height:146px;
+	margin-left:63px;
+	position: absolute;
+	top: 200px;}
+#xiaomibiaozhi_{
+	width: 59px;
+	height: 59px;
+	position: absolute;
+	background: url(../img/index/xiaomibiaozhi.png);
+	left: 23px;
+	top: 40px;
+	}
+#xiaomi_dibu_ziti{
+	width: 730px;
+	height: 59px;
+	position: absolute;
+	top:40px ;
+	left: 90px;
+	}
+#xiaomi_dibu_ziti p{
+	font-size: 13px;
+	color: rgb(107,107,107);
+	}
+#youbiantubiao{
+	width: 413px;
+	height: 63px;
+	position: absolute;
+	background: url(../img/index/youbiantubiao.png);
+	left: 920px;
+	top: 40px;
+	}
+#xiaomikeji{
+	width: 300px;
+	height: 40px;
+	background: url(../img/index/xiaomikeji.png);
+	position: absolute;
+	top: 110px;
+	left: 450px;
+	}
+
+
+
+
+
